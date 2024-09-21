@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horaires de Voyage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        .add-row {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .add-row button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .add-row button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Horaires de Voyage</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Heure de Départ</th>
+                    <th>Heure d'Arrivée</th>
+                    <th>Destination</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-09-20</td>
+                    <td>08:00</td>
+                    <td>12:00</td>
+                    <td>ILEBO</td>
+                </tr>
+                <tr>
+                    <td>2024-09-21</td>
+                    <td>14:00</td>
+                    <td>18:00</td>
+                    <td>LUBUMBASHI</td>
+                </tr>
+                <tr>
+                    <td>2024-09-22</td>
+                    <td>10:00</td>
+                    <td>15:00</td>
+                    <td>KANAGA</td>
+                </tr>
+                <tr>
+                    <td>2024-09-25</td>
+                    <td>10:00</td>
+                    <td>15:00</td>
+                    <td>MBUJIMAYI</td>
+                </tr>
+                <!-- Ajoutez d'autres lignes ici -->
+            </tbody>
+        </table>
+        <div class="add-row">
+            <button>Ajouter un Horaire</button>
+        </div>
+    </div>
+</body>
+</html>
